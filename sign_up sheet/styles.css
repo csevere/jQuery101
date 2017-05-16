@@ -33,7 +33,7 @@
   color:teal;
   position: relative;
   top: -36px;
-  right: 122px;
+  right: 156px;
   font-size: 20px;
 }
 
@@ -56,7 +56,7 @@
   color: teal;
   position: relative;
   top: -18px;
-  right: 162px;
+  right: 202px;
   padding-bottom: 20px;
   font-size: 20px;
 
@@ -98,12 +98,12 @@ use this to make interesting span*/
 
 #box3{
   position: relative;
-  right: 177px;
+  right: 212px;
 }
 
 #box4{
   position: relative;
-  right: 197px;
+  right: 232px;
 }
 
 form{
@@ -115,7 +115,7 @@ form{
   /*border: 1px solid #555;*/
   border-radius: 4px;
   position: relative;
-  top: -28px;
+  top: -22px;
   font-family: 'Bitter', serif;
   padding-top: 10px;
   border: 2px solid white;
