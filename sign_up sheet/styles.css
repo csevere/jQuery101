@@ -1,0 +1,186 @@
+.body-wrapper{
+  width:39%;
+  height:100%;
+  position:relative;
+  left: 40px;
+  background-color: white;
+  /*border: 1px solid gray;*/
+  box-shadow: -5px 8px 10px 6px #888888;
+  border-radius: 3px;
+  padding-bottom: 30px;
+  font-family: 'Bitter', serif;
+}
+
+.header{
+  background-color: teal;
+  color: white;
+  width: 88%;
+  height:90%;
+  /*border:1px solid #555;*/
+  position: relative;
+  top: 20px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-readius: 10px;
+  padding-top: 10px;
+  border-style: ridge;
+
+}
+
+#box1{
+  padding-top: 73px;
+  display: inline-block;
+  color:teal;
+  position: relative;
+  top: -36px;
+  right: 122px;
+  font-size: 20px;
+}
+
+#box1 span{
+  margin-left: -50px;
+  position: absolute;
+  background-color:teal;
+  color: white;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 5px solid #fff;
+}
+
+
+
+.boxes{
+  color: teal;
+  position: relative;
+  top: -18px;
+  right: 162px;
+  padding-bottom: 20px;
+  font-size: 20px;
+
+}
+/*
+use this to make interesting span*/
+.boxes span{
+  margin-left: -50px;
+	position: absolute;
+	background-color:teal;
+	color: white;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 5px solid #fff;
+}
+
+/*.section{
+	font-size: 24px;
+	color: #2a88ad;
+	margin: 10px 0px;
+}
+
+.section span{
+	margin-left: -50px;
+	position: absolute;
+	background-color: #2a88ad;
+	color: white;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 5px solid #fff;
+
+}*/
+
+#box3{
+  position: relative;
+  right: 177px;
+}
+
+#box4{
+  position: relative;
+  right: 197px;
+}
+
+form{
+  background-color: teal;
+  color: white;
+  font-weight: normal;
+  width: 88%;
+  height: 144px;
+  /*border: 1px solid #555;*/
+  border-radius: 4px;
+  position: relative;
+  top: -28px;
+  font-family: 'Bitter', serif;
+  padding-top: 10px;
+  border: 2px solid white;
+  border-style: ridge;
+  line-height: 23px;
+
+
+}
+
+
+input{
+  width: 88%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 0px;
+  border-style: ridge;
+
+
+}
+
+#submit{
+  width: 88%;
+  height:40px;
+  border-style: none;
+  position: relative;
+  top: 20px;
+  font-weight: bold;
+  background-color: white;
+  /*background: lightgray;*/
+  /*border-radius:30%;*/
+  /*border: 1px solid white;*/
+}
+
+
+
+/*.b:hover{
+  background-color: gainsboro;
+  color:black;
+  border-radius: 8%;
+}*/
+
+/*#last-form{
+  width: 88%;
+  height: 40px;
+  position: relative;
+  top: 1px;
+}*/
+
+#agreement{
+  height: 10px;
+  position: relative;
+  top: -7px;
+  border-style: ridge;
+  border: 1px solid white;
+  box-shadow: 0px 0px 2px 0px;
+}
+
+#check{
+  position:relative;
+  bottom: 14px;
+  width: 10px;
+  height: 10px;
+  right:217px;
+}
+
+.error{
+	color: red;
+  font-size: 10px;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up Sheet</title>
+
+    <link rel="stylesheet" type ="text/css" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Merriweather" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+
+
+  </head>
+  <body>
+
+    <center class = "body-wrapper">
+
+    <div class = "header">
+      <h1>Sign up now!</h1>
+      <h4>Sign up for the dev job of your dreams!</h4>
+    </div>
+
+    <div id = "box1">
+      <span>1</span> First Name & Address
+    </div>
+
+    <form>
+      <div class = "error fullName-error"></div>
+        Your Full Name:<br>
+        <input type="text" name="Your Full Name" class = "fullName" placeholder = "Your Full Name"><br>
+
+
+      <div class = "error address-error"></div>
+        Address:<br>
+        <input type="text" class = "address" name = "address" placeholder="Your Address">
+    </form>
+
+    <div class = "boxes">
+        <span>2</span> Contact Info
+    </div>
+
+    <form>
+      <div class = "error email-error"></div>
+        Email:<br>
+        <input type="email" class ="email" data-field = "email" placeholder="Your email address"><br>
+
+      <div class = "error phone-error"></div>
+        Phone:<br>
+        <input type="number" class = "phone" placeholder="Your Phone Number">
+    </form>
+
+    <div class = "boxes" id = "box3">
+        <span>3</span> Password
+    </div>
+
+    <form>
+      <div class = "error password-error">
+        <!-- innerHtml is here
+        .html() is here -->
+
+      </div>
+        Password:<br>
+        <input type="password"  class ="password" placeholder="Password must be 6 characters"><br>
+
+      <div class = "error password2-error"></div>
+        Password Confirmation:<br>
+        <input type="password" class = "password2" placeholder="Confirm password">
+    </form>
+
+    <div class = "boxes" id = "box4">
+        <span>4</span> Skills
+    </div>
+    <form>
+
+      <div class = "error mySkills-error"></div>
+        My Tech Skills:<br>
+        <input type="text" class = "mySkills" placeholder="Enter your skills"><br>
+
+
+      <div class = "error years-error"></div>
+        Years of Experience:<br>
+        <input type="number" class = "years" placeholder="Years of XP">
+
+    </form>
+
+    <form id = "agreement">
+      <input id = "check" type="checkbox" class = "privacy" name="agree">
+    </form>
+      <span> I agree to the terms and conditions.</span>
+
+      <form id = "submit">
+        <div>
+            <input type = "submit" class = "submit" value="Get me a job!"/>
+        </div>
+
+      </form>
+
+
+
+
+
+
+
+
+
+
+
+  </center>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
